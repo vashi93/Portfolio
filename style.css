@@ -29,7 +29,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('hero.png');
+    background-image: url('hero.jpg');
     background-size: cover;
     background-position: center;
     filter: brightness(1); /* Initial brightness */
@@ -59,6 +59,7 @@ body::before {
     bottom: 40px;
     border: 2px solid var(--border);
     padding: 40px;
+    border-radius: 10px;
 }
 
 /* Custom Cursor */
@@ -166,25 +167,6 @@ nav a:hover {
     font-weight: 400;
 }
 
-/* Skills Grid */
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-}
-
-.skill-item {
-    border: 1px solid var(--border);
-    padding: 2rem;
-    text-align: center;
-    transition: opacity 0.3s ease;
-    background: #ffffff1f;
-    border-radius: 10px;
-}
-
-.skill-item:hover {
-    opacity: 0.8;
-}
 
 /* Contact Form */
 .contact-form {
